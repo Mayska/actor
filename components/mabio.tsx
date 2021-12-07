@@ -41,11 +41,7 @@ export default function Mabio() {
                             height="300"
                         />
                         <br />
-                        {contains.map(({ nom, realisation }) => {
-                            return (<>
-                                <p className="text-start fs-6 fw-lighter color"><span className="fw-bold">{nom}</span>{realisation != "" ? <span className="fst-italic"> - {realisation}</span> : ""} </p>
-                            </>)
-                        })}
+                 
                     </div>
                     <div className="col-9">
                         <br />
