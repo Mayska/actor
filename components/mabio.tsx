@@ -43,7 +43,7 @@ export default function Mabio() {
                         <br />
                         {contains.map(({ nom, realisation }) => {
                             return (<>
-                                <p className="text-start fs-6 fw-lighter color">"<span className="fw-bold">{nom}</span>{realisation != "" ? <span className="fst-italic"> - {realisation}</span> : ""}" </p>
+                                <p className="text-start fs-6 fw-lighter color"><span className="fw-bold">{nom}</span>{realisation != "" ? <span className="fst-italic"> - {realisation}</span> : ""} </p>
                             </>)
                         })}
                     </div>
