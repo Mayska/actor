@@ -17,12 +17,11 @@ export default function Mabio() {
             <h3 className="text-center"><span className="material-icons">auto_stories</span> Ma biographie <span className="material-icons">auto_stories</span></h3>
             <hr />
             <style jsx>{`
-
                 .background {
                     background-image: url("/img/olga-thelavart.png");
                 }
                 .signature {
-                    font-family: 'Calligraffitti', cursive;
+                    font-family: "Calligraffitti", cursive;
                     color: #dba400
                 }
                 .color {
@@ -43,7 +42,7 @@ export default function Mabio() {
                         <br />
                         {contains.map(({ nom, realisation }) => {
                             return (<>
-                                <p className="text-start fs-6 fw-lighter color">&ldquo;<span className="fw-bold">{nom}</span>{realisation != "" ? <span className="fst-italic"> - {realisation}</span> : ""}&rdquo; </p>
+                                <p className="text-start fs-6 fw-lighter color">`&ldquo;`<span className="fw-bold">{nom}</span>{realisation != "" ? <span className="fst-italic"> - {realisation}</span> : ""}`&rdquo;` </p>
                             </>)
                         })}
                     </div>
@@ -72,7 +71,7 @@ export default function Mabio() {
 
                         <p className="text-break">Depuis 2013, je travaille avec différentes compagnies franciliennes sur des créations diverses comme Psychiatrie/Déconniatrie avec la compagnie Rêve de moi j’Rêve de toi en 2014, Phèdre et Contes, Voyage aux quatres coins du monde en 2015 avec la compagnie Khadra, Si d’aventure tu partais mise en scène par Nichola Soudière depuis 2017, ou encore La coloc du brancardier, comédie dramatique avec la compagnie Pompe et Macadam.</p>
 
-                        <p className="text-break">Depuis 2019, je travaille avec l’artiste chorégraphe et metteure-en-scène Diane Broman sur un laboratoire de recherche artistique et j'ai rejoins l’équipe de la compagnie Les Libres Penseurs basée en Normandie pour leur nouvelle création: Magda.</p>
+                        <p className="text-break">Depuis 2019, je travaille avec l’artiste chorégraphe et metteure-en-scène Diane Broman sur un laboratoire de recherche artistique et j’ai rejoins l’équipe de la compagnie Les Libres Penseurs basée en Normandie pour leur nouvelle création: Magda.</p>
 
                         <p className="text-break">J’ai continué mes explorations artistiques grâce à différents stages, avec notamment Patrice Bigel, metteur en scène de la compagnie La Rumeur, avec Pascal Ben, comédienne et chanteuse de la compagnie La Voix est Libre. Mais aussi encore en suivant des cours de chants lyriques avec la professeure et artiste lyrique Françoise Detchenik ou encore la photographie.</p>
                         <p className="signature text-end fs-1">François Leviste</p>
@@ -82,6 +81,5 @@ export default function Mabio() {
             </div>
             <br />
             <br />
-
         </>)
 }
