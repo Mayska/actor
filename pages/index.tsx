@@ -1,6 +1,5 @@
 import Layout from '../components/layout'
 import Index from '../components'
-import Script from 'next/script'
 
 
 export default function Home() {
@@ -10,7 +9,6 @@ export default function Home() {
   }
   return (
     <Layout page={props.titre}>
-      <Script src="https://third-party-script.js"></Script>
       {props.children}
     </Layout>
   )
