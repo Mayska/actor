@@ -70,18 +70,18 @@ export default function Index() {
                             <hr />
                             <h5 className="card-title">Mes Diplômes</h5>
                             <ul>
-                                {diplomes.map(element => {
+                                {diplomes.map(e => {
                                     return (<>
-                                        <li>{element}</li>
+                                        <li>{e}</li>
                                     </>)
                                 })
                                 }</ul>
                             <hr />
                             <h5 className="card-title">Mon parcours</h5>
                             <ul>
-                                {parcours.map(element => {
+                                {parcours.map(el => {
                                     return (<>
-                                        <li>{element}</li>
+                                        <li>{el}</li>
                                     </>)
                                 })
                                 }</ul>
